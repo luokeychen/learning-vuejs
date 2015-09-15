@@ -25,15 +25,19 @@ SPAなどでRouterが必要な場合は、[vue-router](https://github.com/vuejs/
 
 ## ViewModel
 
-```Javascript:ViewModel
+```javascript
 var vm = new Vue({ /* options */ });
 ```
 
-```Javascript
+### View
+
+```javascript
 vm.$el
 ```
 
-```Javascript:Model
+### Model
+
+```javascript
 vm.$data // The Model
 
 var vm = new Vue({
