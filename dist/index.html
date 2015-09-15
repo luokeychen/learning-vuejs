@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>vue.js</title>
+  <style type="text/css">
+    [v-cloak] {
+      display: none
+    }
+    body{
+      font: 12px/1.5 Helvetica , "游ゴシック" , "Yu Gothic" , sans-serif;
+      width: 800px;
+      margin: 0 auto;
+    }
+    img {
+      vertical-align: top;
+    }
+  </style>
+</head>
+<body>
+  <div id="vue-app">
+    <p>{{name}} / {{binomen | capitalize}}</p>
+    <p>{{description}}</p>
+    <a href="#" v-on="click: makeSounds"><img src="{{image}}" alt="" width="200" height="200" /></a>
+    <ul>
+      <li v-repeat="friend: friends">{{friend}}</li>
+    </ul>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
