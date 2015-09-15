@@ -14,7 +14,7 @@
 
 MVVMフレームワークなので、Routerはありません。
 SPAなどでRouterが必要な場合は、[vue-router](https://github.com/vuejs/vue-router)を使用することが推奨されています。
-また、ajaxを使用する場合は、[vue-resource](https://github.com/vuejs/vue-resource)が便利です。
+また、ajaxを使用する場合は[vue-resource](https://github.com/vuejs/vue-resource)が便利です。
 
 ## 概要
 
