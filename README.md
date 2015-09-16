@@ -54,6 +54,7 @@ vm.$data.a === vm.a // true
 
 ### 基礎チュートリアル（ディレクティブ / Mustache バインディング / フィルタ）
 `$ git clone https://github.com/30kidz/learning-vuejs.git`
+`php -S localhost:4000`
 
 ### カーセンサーAPIを使用したチュートリアル（コンポーネント）
 
